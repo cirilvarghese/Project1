@@ -1,0 +1,37 @@
+.brand-logo{ 
+text-decoration: underline;
+text-underline-offset: 5px;
+}
+
+.header-bar ul{
+    flex-grow: 0.5;
+    
+}
+
+.header-button{
+    border-color: black;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 15vh;
+    box-shadow: none;
+    border: none;
+    font-size: small;
+    transition: all linear 0.6s !important;
+}
+
+.section-2{
+    background: url(./images/cover-1.jpg);
+    height: 70vh;
+    margin: 10px;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-2-button{
+    background-color: white;
+border-radius: 0;
+width: 15vh;
+padding: auto;
+}
