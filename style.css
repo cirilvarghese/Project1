@@ -110,3 +110,34 @@ background-size: contain;
 
 }
 
+.footer-section{
+  height: 10vh;
+  gap: 2rem;
+  
+}
+
+.footer-section input{
+  border-radius: 50px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid grey;
+
+}
+
+.alert-message{
+  position: relative;
+ 
+}
+
+.warn-msg{
+  position: absolute;
+  display: none;
+}
+
+.submit-button{
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: large;
+  width: 17vh;
+}

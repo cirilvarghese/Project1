@@ -9,3 +9,16 @@ $(".header-button").mouseleave(function(){
     $(this).css({"border-radius":"0px", "transition": "0.9s all"})
 })
 
+function send(){
+    event.preventDefault()
+    var name=document.getElementById('name').value
+    var email=document.getElementById('email').value
+    var contact=document.getElementById('contact').value
+    const msg=document.getElementById('msg').value
+
+    if(name.value === ''|| email.value === '' || contact.value === '' )
+    {
+   msg.style.display='block';     
+}
+
+}
