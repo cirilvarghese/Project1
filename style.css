@@ -124,14 +124,15 @@ background-size: contain;
 
 }
 
-.alert-message{
+.message-box{
   position: relative;
  
 }
 
 .warn-msg{
-  position: absolute;
+ position: absolute;
   display: none;
+  z-index: 1;
 }
 
 .submit-button{
@@ -140,4 +141,9 @@ background-size: contain;
   color: white;
   font-size: large;
   width: 17vh;
+}
+
+.arrow{
+  display: none;
+  
 }
