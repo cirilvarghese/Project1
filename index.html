@@ -87,7 +87,8 @@
                 Etiam quis faucibus
                 erat, non accumsan leo. Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida
                 tellus ut consequat</p>
-            <button type="button" class="section-3-button" id="learnmore" style="display: block;">LEARN MORE <span class="arrow">◦</span></button>
+            <button type="button" class="section-3-button" id="learnmore" style="display: block;">LEARN MORE <span
+                    class="arrow">◦</span></button>
         </div>
         <div class="second-column col-lg-12">
 
@@ -147,27 +148,29 @@
     <footer class="bg-body-tertiary">
         <!-- <p class="form-heading text-muted">SUBMIT YOUR REQUIRED INFORMATION TO US TO GET TO YOU BACK</p> -->
 
-        <div class="footer-section d-flex justify-content-center align-items-center">
-            <div class="name">
-                <i class="fa-solid fa-user"></i>
-                <input type="text" name="Text" id="name" placeholder="Type you Name">
-            </div>
-            <div class="email">
-                <i class="fa-solid fa-envelope"></i>
-                <input type="email" name="email-place" id="email" placeholder="enter your email">
-            </div>
-            <div class="contact-number">
-                <i class="fa-solid fa-phone"></i>
-                <input type="number" name="phonenumber" id="contact" placeholder="Contact info">
-            </div>
+        <form action="#" onsubmit="return send()">
+            <div class="footer-section d-flex justify-content-center align-items-center">
+                <div class="name">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="Text" id="name" placeholder="Type you Name">
+                </div>
+                <div class="email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" name="email-place" id="email" placeholder="enter your email">
+                </div>
+                <div class="contact-number">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="number" name="phonenumber" id="contact" placeholder="Contact info">
+                </div>
 
-            <input type="button" value="send" class="submit-button" onclick="send(e)">
-            
+                <input type="submit" value="send" class="submit-button" >
+
+            </div>
+        </form>
+        <div class="message-box">
+            <p class="warn-msg" style="color: red;" id="msg">Enter all fields completely</p>
         </div>
-      <div class="message-box">
-        <p class="warn-msg" style="color: red;" id="msg">Enter all fields completely</p>
-      </div>               
-               
+
     </footer>
     <!-- Javascript cdn -->
 
@@ -176,4 +179,4 @@
     <script src="script.js"></script>
 </body>
 
-</html> 
+</html>
